@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "devops-my-aws-keypair"
+  default = "terraform"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/amit-personal-aws.pem"
+  default = "/root/.ssh/mansoor.pem"
 }
 
 variable "us-east-zones" {
